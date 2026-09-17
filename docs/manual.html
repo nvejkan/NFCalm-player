@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NFCalm Player — User Manual</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', 'Sarabun', 'Tahoma', Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #2b2b2b;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    font-size: 17px;
+  }
+  header {
+    background: #E86F98;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+  }
+  header p {
+    margin-top: 4px;
+    font-size: 0.95em;
+    opacity: 0.95;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px 60px;
+  }
+  .step-card {
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  .step-image {
+    flex: 1 1 380px;
+    background: #fdf1f4;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding: 10px;
+  }
+  .step-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  .step-content {
+    flex: 1 1 380px;
+    padding: 28px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .step-badge {
+    display: inline-block;
+    background: #E86F98;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.95em;
+    padding: 5px 14px;
+    border-radius: 20px;
+    margin-bottom: 14px;
+    width: fit-content;
+  }
+  .step-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0 0 14px 0;
+    color: #b23b60;
+  }
+  .text-en {
+    margin-bottom: 14px;
+    color: #333;
+    font-size: 1.08em;
+  }
+  .text-th {
+    color: #555;
+    border-top: 1px dashed #ddd;
+    padding-top: 12px;
+    font-size: 1.08em;
+  }
+  ul.controls-list {
+    margin: 10px 0 0 0;
+    padding-left: 22px;
+    font-size: 1.05em;
+  }
+  ul.controls-list li {
+    margin-bottom: 6px;
+  }
+  .controls-heading {
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    color: #b23b60;
+    font-size: 1.1em;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+    font-size: 0.9em;
+  }
+  @media (max-width: 700px) {
+    .step-card {
+      flex-direction: column;
+    }
+    .step-image {
+      min-height: 320px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>NFCalm Player</h1>
+  <p>User Manual / คู่มือการใช้งาน</p>
+</header>
+
+<div class="container">
+
+  <!-- STEP 1 -->
+  <div class="step-card">
+    <div class="step-image">
+      <img src="manual_pics/1.png" alt="Step 1 Screenshot">
+    </div>
+    <div class="step-content">
+      <span class="step-badge">STEP 1 — On Android phone</span>
+      <h2 class="step-title">Parent Mode Home Screen</h2>
+      <p class="text-en">
+        Parent mode home screen. Add music via web app using the IP shown, or link playlists with NFC.
+        Testers can unlock Premium for free using the button in the bottom-left corner.
+      </p>
+      <p class="text-th">
+        หน้าจอหลักของโหมดผู้ปกครอง เพิ่มเพลงผ่านเว็บแอปโดยใช้ IP ที่แสดงไว้ หรือเชื่อมต่อ playlist ด้วย NFC
+        ผู้ทดสอบสามารถปลดล็อก Premium ได้ฟรีโดยกดปุ่มที่มุมล่างซ้าย
+      </p>
+    </div>
+  </div>
+
+  <!-- STEP 2 -->
+  <div class="step-card">
+    <div class="step-image">
+      <img src="manual_pics/2.png" alt="Step 2 Screenshot">
+    </div>
+    <div class="step-content">
+      <span class="step-badge">STEP 2 — On PC web</span>
+      <h2 class="step-title">Open the Web App</h2>
+      <p class="text-en">
+        This is the web app for uploading music. Tap "New Playlist" to start.
+      </p>
+      <p class="text-th">
+        นี่คือเว็บแอปสำหรับอัปโหลดเพลงบนคอม กดปุ่ม "New Playlist" เพื่อเริ่มต้น
+      </p>
+    </div>
+  </div>
+
+  <!-- STEP 3 -->
+  <div class="step-card">
+    <div class="step-image">
+      <img src="manual_pics/3.png" alt="Step 3 Screenshot">
+    </div>
+    <div class="step-content">
+      <span class="step-badge">STEP 3 — On PC web</span>
+      <h2 class="step-title">Create Your Playlist</h2>
+      <p class="text-en">
+        Set playlist name, add cover, upload songs, and link an NFC card
+        (keep phone screen on and ready).
+      </p>
+      <p class="text-th">
+        ตั้งชื่อ playlist เพิ่มภาพปก อัปโหลดเพลง และเชื่อมต่อการ์ด NFC
+        (เปิดหน้าจอโทรศัพท์ทิ้งไว้ให้พร้อมใช้งาน)
+      </p>
+    </div>
+  </div>
+
+  <!-- STEP 4 -->
+  <div class="step-card">
+    <div class="step-image">
+      <img src="manual_pics/4.png" alt="Step 4 Screenshot">
+    </div>
+    <div class="step-content">
+      <span class="step-badge">STEP 4 — On PC web</span>
+      <h2 class="step-title">Ready to Link NFC</h2>
+      <p class="text-en">
+        Once the phone screen is on, the button changes to ready-to-tap. Press it.
+      </p>
+      <p class="text-th">
+        เมื่อเปิดหน้าจอโทรศัพท์แล้ว ปุ่มจะเปลี่ยนเป็นสถานะพร้อมแตะการ์ด กดปุ่มนั้น
+      </p>
+    </div>
+  </div>
+
+  <!-- STEP 5 -->
+  <div class="step-card">
+    <div class="step-image">
+      <img src="manual_pics/5.png" alt="Step 5 Screenshot">
+    </div>
+    <div class="step-content">
+      <span class="step-badge">STEP 5 — On PC web</span>
+      <h2 class="step-title">NFC Link Successful</h2>
+      <p class="text-en">
+        After tapping, the card's UID appears — link successful. This card will
+        auto-open this playlist. Tap "Done" when finished.
+      </p>
+      <p class="text-th">
+        หลังจากแตะการ์ดแล้ว จะแสดงเลข UID ของการ์ด แสดงว่าเชื่อมต่อสำเร็จ
+        การ์ดนี้จะเปิด playlist นี้ให้อัตโนมัติ กดปุ่ม "Done" เมื่อเสร็จสิ้น
+      </p>
+    </div>
+  </div>
+
+  <!-- STEP 6 -->
+  <div class="step-card">
+    <div class="step-image">
+      <img src="manual_pics/6.png" alt="Step 6 Screenshot">
+    </div>
+    <div class="step-content">
+      <span class="step-badge">STEP 6 — On PC web</span>
+      <h2 class="step-title">Enable Kid Mode</h2>
+      <p class="text-en">
+        The playlist is now ready. Tap "Kid mode" to lock the phone for safe playback.
+        Once locked, your child can only play music — they cannot exit the app,
+        open other apps, or access any other phone features.
+      </p>
+      <p class="text-th">
+        Playlist พร้อมใช้งานแล้ว กดปุ่ม "Kid mode" เพื่อล็อกหน้าจอโทรศัพท์ให้พร้อมเล่นเพลงอย่างปลอดภัย
+        เมื่อล็อกแล้ว เด็กจะสามารถเล่นเพลงได้เท่านั้น ไม่สามารถออกจากแอพ เปิดแอพอื่น
+        หรือเข้าถึงฟังก์ชันอื่นๆของโทรศัพท์ได้เลย
+      </p>
+    </div>
+  </div>
+
+  <!-- STEP 7 -->
+  <div class="step-card">
+    <div class="step-image">
+      <img src="manual_pics/7.png" alt="Step 7 Screenshot">
+    </div>
+    <div class="step-content">
+      <span class="step-badge">STEP 7 — On Android phone</span>
+      <h2 class="step-title">Lock Kid Mode from Phone (Optional)</h2>
+      <p class="text-en">
+        (Optional) You can also lock kid mode directly from the phone.
+      </p>
+      <p class="text-th">
+        (อีกวิธี) คุณสามารถล็อก Kid mode ได้โดยตรงจากโทรศัพท์เช่นกัน
+      </p>
+    </div>
+  </div>
+
+  <!-- STEP 8 -->
+  <div class="step-card">
+    <div class="step-image">
+      <img src="manual_pics/8.png" alt="Step 8 Screenshot">
+    </div>
+    <div class="step-content">
+      <span class="step-badge">STEP 8 — On Android phone</span>
+      <h2 class="step-title">Playing Music with NFC</h2>
+      <p class="text-en">
+        Phone switches to Kid mode. Tap an NFC card to start playing — the screen
+        stays locked, keeping kids safe inside the app.
+      </p>
+      <div class="controls-heading">Controls</div>
+      <ul class="controls-list">
+        <li>Tapping NFC auto-starts playback</li>
+        <li>Swipe down to pause</li>
+        <li>Swipe up for the next song</li>
+        <li>Tap the same card to resume</li>
+        <li>Tap a new card to switch playlists</li>
+      </ul>
+      <p class="text-th" style="margin-top:14px;">
+        โทรศัพท์จะเปลี่ยนเป็น Kid mode แตะการ์ด NFC เพื่อเริ่มเล่นเพลง — หน้าจอจะถูกล็อกไว้
+        ทำให้เด็กปลอดภัยอยู่ในแอพเสมอ
+      </p>
+      <div class="controls-heading">วิธีควบคุม</div>
+      <ul class="controls-list">
+        <li>แตะ NFC เพื่อเริ่มเล่นเพลงอัตโนมัติ</li>
+        <li>รูดลงเพื่อ pause</li>
+        <li>รูดขึ้นเพื่อเปลี่ยนเป็นเพลงถัดไป</li>
+        <li>แตะการ์ดเดิมเพื่อเล่นต่อ</li>
+        <li>แตะการ์ดใหม่เพื่อเปลี่ยน playlist</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  NFCalm Player — User Manual © 2024
+</footer>
+
+</body>
+</html>
